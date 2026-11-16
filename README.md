@@ -12,3 +12,5 @@ The repository contains two Jupyter Notebooks:
 `surface_backscatter_changes.ipynb` uses [Google Earth Engine](https://earthengine.google.com/) (and [geemap](https://geemap.org/)) to track changes in backscatter between yearly mosaics of Sentinel-1 images.
 
 `surface_elevation_changes.ipynb` uses [pdemtools](https://pdemtools.readthedocs.io/en/latest/) to access [ArcticDEM](https://www.pgc.umn.edu/data/arcticdem/) strips to calculate surface elevation changes.
+
+Both scripts assume the user has downloaded the glacier outlines from the [Randolph Glacier Inventory (RGI)](https://rgidata.org/) - RGI version 7.0 was used during the development of this project.
